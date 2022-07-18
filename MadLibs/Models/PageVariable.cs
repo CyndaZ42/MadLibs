@@ -16,10 +16,16 @@ namespace MadLibs.Models
     public string Noun { get; set; }
     public string Noun2 { get; set; }
     public string Noun3 { get; set; }
+    public string BodyPart { get; set; }
+    public string BodyParts { get; set; }
     public string Game { get; set; }
     public string Plant { get; set; }
-    public string BodyPart { get; set; }
     public string Place { get; set; }
     public string Number { get; set; }
+    public string Animal { get; set; }
+    public string Color { get; set; }
+    public string Superlative { get; set; }
+
+    
   }
 }

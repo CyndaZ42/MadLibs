@@ -1,71 +1,72 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset='utf-8'>
-<title>Create a MadLibs!</title>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQapFmC26EwaOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <meta charset='utf-8'>
+  <title>Create a MadLibs!</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body>
-<h1>Make a MadLibs</h1>
-<form action="/libs" method="post">
-  <label for="verbing">A verb ending in "ing"</label>
-  <input id="verbing" name="verbing" type="text">
-
-  <label for="verbing2">A verb ending in "ing"</label>
-  <input id="verbing2" name="verbing2" type="text">
-  
-  <label for="verbing3">A verb ending in "ing"</label>
-  <input id="verbing3" name="verbing3" type="text">
-  
-  <label for="verbing4">A verb ending in "ing"</label>
-  <input id="verbing4" name="verbing4" type="text">
-  
-  <label for="adjective">An adjective</label>
-  <input id="adjective" name="adjective" type="text">
-  
-  <label for="adjective2">An adjective</label>
-  <input id="adjective2" name="adjective2" type="text">
-  
-  <label for="adjective3">An adjective</label>
-  <input id="adjective3" name="adjective3" type="text">
-  
-  <label for="pluralNoun">A plural noun</label>
-  <input id="pluralNoun" name="pluralNoun" type="text">
-  
-  <label for="pluralNoun2">A plural noun</label>
-  <input id="pluralNoun2"name="pluralNoun2" type="text">
-  
-  <label for="pluralNoun3">A plural noun</label>
-  <input id="pluralNoun3"name="pluralNoun3" type="text">
-  
-  <label for="pluralNoun4">A plural noun</label>
-  <input id="pluralNoun4"name="pluralNoun4" type="text">
-  
-  <label for="noun">A noun</label>
-  <input id="noun" name="noun" type="text">
-  
-  <label for="noun2">A noun</label>
-  <input id="noun2" name="noun2" type="text">
-  
-  <label for="noun3">A noun</label>
-  <input id="noun3" name="noun3" type="text">
-  
-  <label for="game">A game</label>
-  <input id="game" name="game" type="text">
-  
-  <label for="plant">A plant</label>
-  <input id="plant" name="plant" type="text">
-  
-  <label for="bodyPart">A body part</label>
-  <input id="bodyPart" name="bodyPart" type="text">
-  
-  <label for="place">A place</label>
-  <input id="place" name="place" type="text">
-  
-  <label for="number">A number</label>
-  <input id="number" name="number" type="text">
-<button type="submit">Go!</button>
-</form>
+  <div class="container">
+    <h1>Make a MadLibs</h1>
+    <form action="/libs" method="post">
+      <div class="container-md">
+        <label class="form-label" for="verbing">A verb ending in "ing"</label>
+        <input id="verbing" name="verbing" type="text">
+        <label class="form-label" for="verbing2"> A verb ending in "ing"</label>
+        <input id="verbing2" name="verbing2" type="text">
+        <label class="form-label" for="verbing3">A verb ending in "ing"</label>
+        <input id="verbing3" name="verbing3" type="text">
+        <br>
+        <label class="form-label" for="verbing4">A verb ending in "ing"</label>
+        <input id="verbing4" name="verbing4" type="text">
+        <label class="form-label" for="adjective">An adjective</label>
+        <input id="adjective" name="adjective" type="text">
+        <label class="form-label" for="adjective2">An adjective</label>
+        <input id="adjective2" name="adjective2" type="text">
+        <br>
+        <label class="form-label" for="adjective3">An adjective</label>
+        <input id="adjective3" name="adjective3" type="text">
+        <label class="form-label" for="pluralNoun">A plural noun</label>
+        <input id="pluralNoun" name="pluralNoun" type="text">
+        <label class="form-label" for="pluralNoun2">A plural noun</label>
+        <input id="pluralNoun2"name="pluralNoun2" type="text">
+        <br>
+        <label class="form-label" for="pluralNoun3">A plural noun</label>
+        <input id="pluralNoun3"name="pluralNoun3" type="text">
+        <label class="form-label" for="pluralNoun4">A plural noun</label>
+        <input id="pluralNoun4"name="pluralNoun4" type="text">
+        <label class="form-label" for="noun">A noun</label>
+        <input id="noun" name="noun" type="text">
+        <br>
+        <label class="form-label" for="noun2">A noun</label>
+        <input id="noun2" name="noun2" type="text">
+        <label class="form-label" for="noun3">A noun</label>
+        <input id="noun3" name="noun3" type="text">
+        <label class="form-label" for="bodyPart">A body part</label>
+        <input id="bodyPart" name="bodyPart" type="text">
+        <label class="form-label" for="bodyParts">Body parts (plural)</label>
+        <input id="bodyParts" name="bodyPart" type="text">
+        <br>
+        <label class="form-label" for="game">A game</label>
+        <input id="game" name="game" type="text">
+        <label class="form-label" for="plant">A plant</label>
+        <input id="plant" name="plant" type="text">
+        <label class="form-label" for="place">A place</label>
+        <input id="place" name="place" type="text">
+        <label class="form-label" for="number">A number</label>
+        <input id="number" name="number" type="text">
+        <br>
+        <label class="form-label" for="animal">An animal</label>
+        <input id="animal" name="animal" type="text">
+        <label class="form-label" for="color">color</label>
+        <input id="color" name="color" type="text">
+        <label class="form-label" for="superlative">A superlative</label>
+        <input id="superlative" name="superlative" type="text">
+      </div>
+      <br>
+      <button type="submit">Go!</button>
+    </form>
+  </div>
 </body>
 </html>
 
@@ -84,11 +85,15 @@ string pluralNoun4,
 string noun,
 string noun2,
 string noun3,
+string bodyPart,
+string bodyParts,
 string game,
 string plant,
-string bodyPart,
 string place,
 string number,
+string animal,
+string color,
+string superlative
 *@
 
 
